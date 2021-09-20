@@ -28,7 +28,7 @@ Therefore, after considering TPs & FNs we get: For Value 1, 0.91 (91%) for High-
 **F1 Score:** 
 F1 Score is basically a Harmonic Mean, as a single summary statistic for the Precision and the Recall. Which actually computes after getting the Precision & Recall values and applying those values in this formula: 2 × (precision x recall) / (precision + recall).
 
-Therefore, after computing F1 Score we get: For Value 1, 0.88 (88%) for High-Risk Loans shows the F1 Score is actually somewhere in the middle of Precision & Recall Values. Where, the Precision was 85% & Recall was 91% we get the more refined value i.e. 88% after applying the F1 Score formula. Whereas for Value 0, 1.00 (100%) confidence at 3rd level of calculation after computing Precision, Recall & F1 proves that how solid the confifence is actually lies in Healthy Loans.
+Therefore, after computing F1 Score we get: For Value 1, 0.88 (88%) for High-Risk Loans shows the F1 Score is actually somewhere in the middle of Precision & Recall Values. Where, the Precision was 85% & Recall was 91% we get the more refined value i.e. 88% after applying the F1 Score formula. Whereas for Value 0, 1.00 (100%) confidence at 3rd level of calculation after computing Precision, Recall & F1 proves that how solid the confidence is actually lies in Healthy Loans.
 
 **Conclusion:**
 The Model Performance has been measured or evaluated by applying confusion matrix in general where we have seen that the confidence for the Values 1 & 0 with following conclusion for each of them:
@@ -39,7 +39,7 @@ This 88% shows the best possible value as the accuracy of this model after consi
 
 2. Value 0 (Healthy Loans): The Value 0 shows the highest level of confidence in all 3 techniques: Precision: 100%, Recall: 99% & F1 Score: 100%. This shows that the confidence in measuring the Larger Class of Value 0 (Healthy Loans) is way too high. Machine may sound pretty confident at this level however this might get wrong in long run where machine model develops a tendency to favor Value 0 and give more precedence over Value 1.
 
-Therefore, to avoid the unbiased behaviour we have a functionality called: Imbalanced Classes where we apply Resampling Techniques. Specifically, Oversampling is one the major technique will be leveraged for this purpose to artificially increase the size of Smaller Class so that the comparison with the Larger Class will be trated equal without getting biased, hence to get more fair results by eliminating error at fractional level.
+Therefore, to avoid the unbiased behaviour we have a functionality called: Imbalanced Classes where we apply Resampling Techniques. Specifically, Oversampling is one the major technique will be leveraged for this purpose to artificially increase the size of Smaller Class so that the comparison with the Larger Class will be treated equal without getting biased, hence to get more fair results by eliminating error at fractional level.
 
 
 
