@@ -2,12 +2,8 @@
 Supervised_Learning-Portfolio_12
 
 
-**An Overview of the Analysis:** 
 
-Explain the purpose of this analysis.
-
-
-**The Findings:**
+**Report Findings with Detailed Explanation**
 
 
 **1. Findings of Classification Report of Original Prediction with Target Test (y_test) attribute:** 
