@@ -1,4 +1,4 @@
-# Supervised_Learning
+# Supervised Learning
 # Case Study: Credit Risk Resampling
 
 
