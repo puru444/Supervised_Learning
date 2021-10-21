@@ -1,6 +1,6 @@
 # Supervised_Learning
 Supervised_Learning
-
+Case Study: Credit Risk Resampling
 
 
 **Report Findings with Detailed Explanation**
