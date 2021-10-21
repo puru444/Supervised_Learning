@@ -1,5 +1,5 @@
 # Supervised Learning
-CASE STUDY: Credit Risk Resampling, using Logistic Regression Algorithm.
+CASE STUDY: Credit Risk Evaluation for Loans, using the Logistic Regression Algorithm.
 
 **Report Findings with Detailed Explanation**
 
